@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/fonts/fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: ProxNovaThin;
+  src: url(../fonts/Proxima-Nova-Thin.otf);
+}
+
+.container {
+  display: block;
+  margin: 2em auto;
+  background-color: white;
+  max-width: 1400px;
+  text-align: center;
+}
+
+.banner-image {
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-border {
+  border-bottom: 2px solid white;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.about-banner-border {
+  border-bottom: 2px solid black;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.class-banner {
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid #79addc;
+  border-spacing: 2px;
+  font-family: GillSans;
+}
+
+.about-nav a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #79addc;
+  border-spacing: 2px;
+  font-family: GillSans;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+  font-family: ProxNovaThin;
+}
+
+.title h1 {
+  font-size: 53px;
+}
+
+.title p {
+  font-size: 18px;
+  font-family: GillSans;
+}
+
+.about-title {
+  color: black;
+  text-align: left;
+  margin-top: 75px;
+  padding-left: 260px;
+  font-family: ProxNovaThin;
+}
+
+.about-title h1 {
+  font-size: 45px;
+  border-bottom: 2px solid black;
+  width: 110px;
+  padding-top: 30px;
+}
+
+.about-title p {
+  font-size: 15px;
+  font-family: GillSans;
+  margin-bottom: 2em;
+  padding-right: 90px;
+}
+
+.button {
+  width: 70px;
+  background-color: #79addc;
+  text-align: center;
+  display: block;
+  height: 35px;
+  width: 85px;
+  margin-left: 713px;
+}
+
+.button p {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  padding-top: 11px;
+  margin-left: 10px;
+  font-family: GillSans;
+}
+
+.client-quotes {
+  color: black;
+  text-align: left;
+  margin-top: 75px;
+  padding-left: 260px;
+  font-family: ProxNovaThin;
+}
+
+.client-quotes h1 {
+  border-bottom: 2px solid black;
+  font-size: 45px;
+  width: 110px;
+  padding-top: 30px;
+}
+
+.male {
+  background-image: url("../images/about-client-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.female {
+  background-image: url("../images/about-client-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.owner {
+  height: 300px;
+  width: 200px;
+  color: green;
+  padding-top: 20px;
+  font-family: ProxNovaThin;
+}
+
+.owner p {
+}
+
+.country {
+  height: 300px;
+  width: 200px;
+  color: white;
+  padding-top: 20px;
+  font-family: ProxNovaThin;
+}
+
+.travel-destination-button {
+  background-color: #79addc;
+  text-align: center;
+  font-family: GillSans;
+  height: 35px;
+  width: 110px;
+  padding-top: 9px;
+  margin: 70px auto 0;
+  color: white;
+  border: 2px solid none;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.travel-destinations {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.form {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.booking-form {
+  margin: 70px auto 0;
+  font-family: ProxNovaThin;
+  width: 1020px;
+}
+
+.booking-form h1 {
+  text-align: left;
+  padding-left: 316px;
+  font-size: 40px;
+}
+
+.form-row {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 180px;
+  height: 30px;
+  border-color: #79addc;
+  font-family: GillSans;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-button {
+  background-color: #79addc;
+  color: white;
+  border: 2px solid none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.submit-button p {
+  margin: 0 auto;
+  font-size: 17px;
+  font-family: GillSans;
+}
+
+.footer {
+  margin: 60px;
+  background-color: #79addc;
+}
+
+.footer-logo {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.copyright {
+  padding-top: 23px;
+  font-family: GillSans;
+  color: white;
+}
+
+.fa {
+  padding: 23px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
