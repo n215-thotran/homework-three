@@ -166,6 +166,27 @@ nav a {
   padding-top: 30px;
 }
 
+.israel {
+  background-image: url("../images/tour-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.usa {
+  background-image: url("../images/tour-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.australia {
+  background-image: url("../images/tour-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .male {
   background-image: url("../images/about-client-01.jpg");
   background-position: center;
